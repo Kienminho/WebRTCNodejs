@@ -1,0 +1,88 @@
+.hidden {
+    display: none !important; 
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute; 
+}
+
+.meetingID {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    font-weight: 700; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.joinView {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.joinViewChild {
+    padding: 2.5rem; 
+    margin-top: 12rem; 
+    width: 91.666667%; 
+    max-width: 768px; 
+    border-radius: 0.25rem; 
+}
+
+.inputMeetingID {
+    padding-right: 4rem; 
+    width: 100%; 
+}
+
+.btnJoinExistMeeting {
+    top: 0; 
+    right: 0; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; 
+}
+
+.waitingArea {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.waitingAreaChild {
+    padding: 2.5rem; 
+    margin-top: 12rem; 
+    width: 91.666667%; 
+    border-radius: 0.25rem; 
+}
+
+.waitingAreaCamMic {
+    display: flex; 
+    margin-top: 1rem; 
+    margin-left: 1rem; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.chooseDevice {
+    display: grid; 
+    margin-left: 1rem; 
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+}
+
+.inputUsername {
+    padding-right: 4rem; 
+    width: 100%; 
+}
+
+.leaveViewChild {
+    padding: 1rem; 
+    margin-top: 5rem; 
+    width: 91.666667%; 
+    border-radius: 0.5rem; 
+}
